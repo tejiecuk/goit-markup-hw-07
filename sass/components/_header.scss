@@ -1,0 +1,62 @@
+.header {
+    border-bottom: 1px solid #ececec;
+  }
+  
+  
+  
+  .flex-nav {
+    display: flex;
+  }
+  
+  .mail {
+    display: flex;
+  }
+  
+  .link-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: var(--secondary-text);
+  
+    transition: color var(--trns-effect);
+
+    &:hover,
+    &:focus {
+      color: var(--logo-color);
+    }
+  }
+  
+  
+  .mail-title {
+    display: block;
+  }
+  
+  .mail-icon {
+  
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  .phone-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  
+  .site-cont {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .site-cont .item+.item {
+    margin-left: 50px;
+  }

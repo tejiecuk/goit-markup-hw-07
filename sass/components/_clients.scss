@@ -1,0 +1,41 @@
+.reg-clients {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+  }
+  
+  .clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .cleints-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  
+    color: #afb1b8;
+  
+    transition: border-color var(--trns-effect), color var(--trns-effect);
+    
+    &:hover,
+    &:focus {
+      border-color: #2196f3;
+      color: #2196f3;
+    }
+  }
+  
+  .clients-icon {
+    fill: currentColor;
+  }

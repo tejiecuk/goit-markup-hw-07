@@ -1,0 +1,65 @@
+.main__hero {
+    position: relative;
+    max-width: 1600px;
+    min-height: 600px;
+    background-color: #C4C4C4;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image:
+      /* linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), */
+      url(../images/bimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    
+  
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  }
+  .hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-bgr);
+    margin-bottom: 30px;
+    margin-top: 200px;
+    width: 100%;
+  }
+  
+  .hero__btn {
+    min-width: 216px;
+    padding: 10px 32px;
+    border-color: transparent;
+  
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--logo-color);
+    color: var(--primary-bgr);
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    transition: background-color var(--trns-effect);
+    
+    &:hover,
+    &:focus {
+      background-color: var(--hero-button);
+    }
+  }
+  
+  
